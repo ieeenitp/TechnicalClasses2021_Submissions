@@ -55,5 +55,5 @@ int main() <br/>
 <br/>
 
 ## Output :
-2
-5
+2 <br/>
+5 <br/>
