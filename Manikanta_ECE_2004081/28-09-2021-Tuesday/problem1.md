@@ -4,8 +4,8 @@
 int main()<br/>
 {<br/>
 <br/>
-   \\ printf("Sum of the required series is:\n"); <br/>
-   \\ float  a=1,b=0,c=0;<br/>
+    printf("Sum of the required series is:\n"); <br/>
+    float  a=1,b=0,c=0;<br/>
     int i;<br/>
 <br/>
     for( i = 1 ; i <=7 ; i++)<br/>
