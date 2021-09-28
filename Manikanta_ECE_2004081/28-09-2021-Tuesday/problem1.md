@@ -12,10 +12,10 @@ int main()<br/>
     {<br/>
         a *= i;<br/>
         b +=  (float) i/a;<br/>
-        c+=b;
-        printf("%f ",b);
-        if(i<7>)
-        printf(" + ");
+        c+=b;<br/>
+        printf("%f ",b);<br/>
+        if(i<7>)<br/>
+        printf(" + ");<br/>
     }
    
     printf("\n = %f",c);<br/>
