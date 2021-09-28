@@ -24,6 +24,7 @@ int main()<br/>
 }<br/>
 <br/>
 
-## Output :  Sum of the required series is: <br/>
+## Output : 
+Sum of the required series is: <br/>
 1.000000   + 1.000000   + 0.500000   + 0.166667   + 0.041667   + 0.008333   + 0.001389  <br/>
  = 2.718056<br/>
