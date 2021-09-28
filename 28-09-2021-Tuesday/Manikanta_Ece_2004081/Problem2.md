@@ -54,5 +54,6 @@ int main() <br/>
 }<br/>
 <br/>
 
-## Output : 2
+## Output :
+2
 5
