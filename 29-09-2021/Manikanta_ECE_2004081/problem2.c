@@ -6,24 +6,15 @@ int main()
     printf("Enter the Character:\n");
     scanf("%c", &a);
     if (a>=65 && a<=90)
-    {
-        printf("Entered character is Capital case alphabet");
-    }
+        printf("Entered character is CAPITAL CASE ALPHABET");
     else if (a>=97 && a<=122)
-    {
-        printf("Entered character is Small case alphabet");
-    }
-    else if ((0 <= a && c <= 47) || (58 <= c && c <= 64) || (91 <= c && c <= 96) || (123 <= c && c <= 127))
-    {
-        printf("Your input is a special character");
-    }
+        printf("Entered character is SMALL CASE ALPHABET");
     else if (a>=48 && a<=57)
-    {
-        printf("Your input is a  number");
-    }
+        printf("Entered character is NUMBER");
+    else if ((a>=0 && a<=47) || (a>=58 && a<=64) || (a>=91 && a<=96) || (a>=123 && a<=127))
+        printf("Entered character is SPECIAL CHARACTER");
     else
-    {
-        printf("Invalid innput");
-    }
+        printf("INVALID Character");
+    
     return 0;
 } 
