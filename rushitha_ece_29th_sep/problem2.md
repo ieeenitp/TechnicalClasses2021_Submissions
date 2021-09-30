@@ -1,0 +1,25 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    char ch;
+    int ascii;
+    printf("Enter a character: ");
+    scanf("%c", &ch);
+    ascii = ch;
+
+    printf("ASCII value of %c is: %d\n",ch,ascii);
+
+    if (ascii >= 65 && ascii <= 90)
+        printf("%c is a capital letter",ch); //the ascii value of capital letters lie btw 65 and 90
+
+    else if (ascii >= 97 && ascii <=122)
+        printf("%c is a small letter",ch);   //the ascii value of small letters lie btw 97 and 122
+
+    else if (ascii >=48 && ascii <= 57)
+        printf("%c is a digit",ch);         //the ascii value of digits lie btw 48 and 57
+
+    else if (ascii>=0 && ascii<=47 || ascii>=58 && ascii<=64 || ascii>=91 && ascii<=96 || ascii>=123 && ascii<=127)
+        printf("%c is a special symbols",ch);
+
+}
