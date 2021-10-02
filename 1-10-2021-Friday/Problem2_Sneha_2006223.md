@@ -1,3 +1,6 @@
+# Solution of Question 2
+
+
 ```#include <stdio.h>
 int main(){
     int n;
